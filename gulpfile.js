@@ -10,11 +10,11 @@ gulp.task('pug', () => {
         .pipe(pug({
             pretty: true
         }))
-        .pipe(gulp.dest('./dist/'));
+        .pipe(gulp.dest('./dest/'));
 });
 
 // webpack
 gulp.task('webpack', () => {
     return webpackStream(webpackConfig, webpack)
-        .pipe(gulp.dest('./dist/'));
+        .pipe(gulp.dest('./dest/'));
 });
