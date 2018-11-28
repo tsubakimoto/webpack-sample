@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./ts/main.ts");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/main.ts");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./ts/main.ts":
-/*!********************!*\
-  !*** ./ts/main.ts ***!
-  \********************/
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("function greeter(person) {\n    return \"Hello, \" + person;\n}\nvar user = \"Yuta Matsumura\";\ndocument.body.innerHTML = greeter(user);\n\n\n//# sourceURL=webpack:///./ts/main.ts?");
+eval("function greeter(person) {\n    return \"Hello, \" + person;\n}\nvar user = \"Yuta Matsumura\";\ndocument.body.innerHTML = greeter(user);\n\n\n//# sourceURL=webpack:///./src/main.ts?");
 
 /***/ })
 

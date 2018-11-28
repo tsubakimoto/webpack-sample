@@ -6,6 +6,11 @@ module.exports = {
     // メインとなるJavaScriptファイル（エントリーポイント）
     entry: './src/main.ts',
 
+    // 出力先（gulpで指定した出力先より下のディレクトリ構造にする）
+    output: {
+        filename: './main.js'
+    },
+
     module: {
         rules: [
             {
